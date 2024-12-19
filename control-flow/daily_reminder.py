@@ -19,4 +19,4 @@ if priority in ["high", "medium", "low"]:
         reminder += "It requires immediate attention today!"
     elif time_bount == "no":
         reminder += "consider completing it when you have free time."
-        print(reminder)
+print(f"Reminder: {task_name} | Priority: {priority} | Immediate action required: {time_sensitive}")
